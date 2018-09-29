@@ -89,7 +89,7 @@ html * {
   letter-spacing: -9px;
   color: white;
   margin-left: -15px;
-  text-shadow: 3px 3px black;
+  /* text-shadow: 3px 3px black; */
 }
 .d {
   height: 150px;
@@ -97,17 +97,29 @@ html * {
   text-align: center;
 }
 .d1 {
-  background: rgba(200,30,50,.75);
+  /* background: rgba(200,30,50,.75); */
+  background: black;
   border-radius: 25px 0 0 25px;
 }
 .d2 {
-  background: rgba(0,60,200,.7);
+  /* background: rgba(0,60,200,.7); */
+  box-sizing: border-box;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background: white;
+}
+.d2 * {
+  color: black !important;
 }
 .d3 {
+  box-sizing: border-box;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  /* background: black; */
   background: rgba(214, 173, 04, .9);
   border-radius: 0 25px 25px 0;
 }
-
 
 
 
