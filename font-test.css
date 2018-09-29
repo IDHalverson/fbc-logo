@@ -1,172 +1,74 @@
 
-/* html * {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-family: 'Vollkorn SC', serif;
-  font-family: 'Cormorant Unicase', serif;
-  font-family: 'Peddana', serif;
-  font-size: 30px;
-  letter-spacing: 0px;
-  word-spacing: -5px;
-
-}
-
-span {
-  letter-spacing: -1px;
-  font-size: 20px;
-
-} */
-
-/* .number {
-  font-family: 'Verdana' !important;
-  font-size: 7px !important;
-  letter-spacing: 0px !important;
-  text-decoration: underline;
-  word-spacing: 0px !important;
-} */
-
-
-/* OPTION 1 (big capitals) (top) */
-
-/* .option1 * {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 30px;
-  letter-spacing: -1.5px;
-}
-.option1 span {
-  letter-spacing: -1.5px;
-  font-size: 20px;
-}
-.option1 p:nth-child(3) {
-  display: none;
-} */
-
-
-
-/* OPTION 2 (underliney) (top) */
-
-/* .option2 * {
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 40px;
-  letter-spacing: -1.5px;
-}
-.option2 span {
-  letter-spacing: -1.5px;
-  font-size: 20px;
-  font-family: 'Montserrat Subrayada', sans-serif;
-}
-.option2 p:nth-child(3) {
-  display: none;
-} */
-
-
-/* OPTION 3 (modern capital) (either top or bottom) */
-
 html {
   /* background: rgba(130,100,50,.6) */
 }
 html * {
-  /* color: rgba(130,100,50,1); */
+  color: white;
 }
 
 .flex {
+  display: none;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
 
-.od {
-  width: 100%;
+.cross {
+  margin-top: 70px;
+  z-index: -1;
+  height: 500px;
+  width: 60px;
+  background: rgba(130, 88, 0, 1);
+  position: absolute;
+}
+
+.cross2 {
+  margin-top: 180px;
+  z-index: -1;
+  height: 60px;
+  width: 340px;
+  background: rgba(130, 88, 0, 1);
+  position: absolute;
+}
+
+.left {
+  border-top: 75px solid transparent;
+  border-bottom: 75px solid transparent;
+  border-left: 50px solid white;
+}
+.right {
+  border-top: 75px solid transparent;
+  border-bottom: 75px solid transparent;
+  border-right: 50px solid white;
+}
+
+
+.logo {
+  margin-top: 270px;
+  background: rgba(20, 100, 220, 1);
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
-  margin-bottom: -100px;
-  margin-top: 200px;
-}
-.od span {
-  font-family: 'Vollkorn SC', serif;
-  font-size: 130px;
-  letter-spacing: -9px;
-  color: white;
-  margin-left: -15px;
-  text-shadow: 3px 3px black;
-}
-.d {
-  height: 150px;
-  width: 150px;
-  text-align: center;
-}
-.d1 {
-  background: rgba(200,30,50,.75);
-  border-radius: 25px 0 0 25px;
-}
-.d2 {
-  background: rgba(0,60,200,.7);
-}
-.d3 {
-  background: rgba(214, 173, 04, .9);
-  border-radius: 0 25px 25px 0;
+  align-items: center;
+
 }
 
-
-
-
-.float-left {
-  float: left;
-}
-
-.option3 * {
-  font-family: 'Vollkorn SC', serif;
+.logo * {
+  font-family: 'Peddana', serif;
   font-size: 90px;
-  letter-spacing: -9px;
-  /* text-shadow: 7px 7px rgba(0,0,0,.06); */
+  letter-spacing: 0px;
+  word-spacing: -15px;
 }
-.option3 span {
+.logo span:not(.text) {
+  margin-left: -2px;
   letter-spacing: -3px;
   font-size: 60px;
 }
+.text {
+  margin: 0 20px;
+}
 .tagline {
-  font-family: 'Vollkorn SC', serif;
-  margin-top: -35px;
-  font-size: 22px;
-  letter-spacing: -2.5px;
-  word-spacing: 5px;
-}
-.underline {
-  color: black;
-  height: 3px;
-  padding: 0;
-  border: 0;
-  margin-top: -110px;
-  background: black;
-  width: 75%;
-}
-
-
-/* OPTION 4 (thin capitals) (top or bottom) */
-
-/* .option4 * {
-  font-family: 'Cormorant Unicase', serif;
-  font-size: 30px;
-  letter-spacing: -2px;
-}
-.option4 span {
-  letter-spacing: -1px;
-  font-size: 20px;
-} */
-
-/* OPTION 5 (simple) (top ) */
-
-/* .option5 * {
   font-family: 'Peddana', serif;
-  font-size: 30px;
-  letter-spacing: 0px;
-  word-spacing: -5px;
+  font-size: 25px;
+  color: white;
+  margin-top: -40px;
 }
-.option5 span {
-  letter-spacing: -1px;
-  font-size: 20px;
-}
-.option5 p:nth-child(3) {
-  display: none;
-} */
